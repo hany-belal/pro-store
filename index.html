@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d18"><meta name="description" content="PRO STORE - إكسسوارات موبايل وساعات وسماعات وكابلات">
+<title>PRO STORE | إكسسواراتك في مكان واحد</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script defer src="store.js"></script>
+</head><body>
+<header class="topbar"><a class="brand" href="#"><span class="brand-mark">P</span><span>PRO <b>STORE</b><small>ACCESSORIES THAT FIT YOU</small></span></a><nav><a href="#products">المنتجات</a><a href="#about">عن المتجر</a></nav><a class="whatsapp small" id="headerWhatsApp" target="_blank" rel="noopener">اطلب على واتساب ↗</a></header>
+<main>
+<section class="hero"><div class="hero-copy"><span class="eyebrow"><i></i> اختيارك الذكي للإكسسوارات</span><h1>كل اللي موبايلك<br>محتاجه <span>في مكان واحد.</span></h1><p>سماعات، ساعات ذكية، شواحن وإكسسوارات مختارة بعناية. شوف المنتجات واسألنا عن المتاح بسهولة.</p><div class="hero-actions"><a class="btn primary" href="#products">اكتشف المنتجات <span>←</span></a><a class="btn ghost" id="heroWhatsApp" target="_blank" rel="noopener">كلمنا على واتساب</a></div><div class="hero-proof"><span>✓ أسعار واضحة</span><span>✓ طلب مباشر</span><span>✓ دعم سريع</span></div></div><div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="hero-card"><div class="hero-card-top"><span>PRO / COLLECTION</span><span>01 — 26</span></div><div class="product-illustration"><div class="phone-shape"><div class="phone-screen"><span>PRO</span><b>STORE</b><i></i></div></div><div class="earbud e1"></div><div class="earbud e2"></div><div class="watch"><div class="watch-band"></div><div class="watch-face">10:08</div></div></div><div class="hero-card-bottom"><b>TECH, MADE SIMPLE.</b><span>اختيارات تناسب يومك.</span></div></div><div class="floating-tag">NEW DROP <b>✦</b></div></div></section>
+<section class="catalog section" id="products"><div class="section-heading"><div><span class="eyebrow">OUR CATALOG</span><h2>اختار اللي يناسبك</h2><p>منتجاتنا وأسعارنا المحدثة.</p></div><div class="catalog-count"><strong id="productCount">—</strong><span>منتج</span></div></div>
+<div class="catalog-tools"><label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="دور على منتج..." aria-label="ابحث عن منتج"></label><div class="category-tabs" id="categoryTabs"><button class="active" data-category="الكل">الكل</button><button data-category="سماعات">سماعات</button><button data-category="ساعات">ساعات</button><button data-category="شواحن وكابلات">شواحن وكابلات</button><button data-category="إكسسوارات">إكسسوارات</button></div></div>
+<div id="statusMessage" class="status-message">بنجهزلك المنتجات...</div><div class="product-grid" id="productGrid"></div>
+</section>
+<section class="about section" id="about"><div class="about-badge">P.</div><div><span class="eyebrow">WHY PRO STORE</span><h2>اختيارات عملية، وتجربة أسهل.</h2><p>هدفنا نسهّل عليك اختيار إكسسواراتك. شوف تفاصيل المنتج والسعر، وبعدها ابعتلنا على واتساب للتأكد من التوفر وتأكيد طلبك.</p></div><a class="btn primary" id="aboutWhatsApp" target="_blank" rel="noopener">اسأل عن منتج <span>↗</span></a></section>
+</main><footer><a class="brand footer-brand" href="#"><span class="brand-mark">P</span><span>PRO <b>STORE</b><small>ACCESSORIES THAT FIT YOU</small></span></a><span>© <span id="year"></span> PRO STORE. جميع الحقوق محفوظة.</span><a href="admin.html" class="admin-link">دخول الإدارة</a></footer>
+</body></html>
